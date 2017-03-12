@@ -101,4 +101,5 @@ Labelled list of 6 activities that the actors were enagaged in.
 4. Set the column names of the merged_set to feature names; also assign column names to subject and activity  
 5. Subset the merged_set to keep only those columns whose features contain the "mean" or "std" keywords  
 6. Transform the activity column into a factor with levels and labels specified in activity_labels.txt  
-7. Output the tidied data to "tidy.csv"  
+7. Aggregate rows by (subject, activity) and compute the mean of the grouped rows  
+8. Output the tidied data to "tidy.csv"  
