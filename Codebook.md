@@ -95,4 +95,10 @@ Labelled list of 6 activities that the actors were enagaged in.
 6             LAYING  
 
 ## Data Processing
-
+1. Import activity_labels.txt, features.txt, subject_train.txt, X_train.txt, y_train.txt, subject_test.txt, X_test.txt and y_test.txt datasets  
+2. Bind the subject, X and y datasets of train and test datasets by column to create a train_set and test_set respectively  
+3. Bind the train_set and test_set by row to create a merged_set  
+4. Set the column names of the merged_set to feature names; also assign column names to subject and activity  
+5. Subset the merged_set to keep only those columns whose features contain the "mean" or "std" keywords  
+6. Transform the activity column into a factor with levels and labels specified in activity_labels.txt  
+7. Output the tidied data to "tidy.csv"  
