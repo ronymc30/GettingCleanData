@@ -1,9 +1,12 @@
 # Codebook
 
-## Predictors (Features)
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
+## Subject
+A list of 30 actors off whom the various predictors and responses observations were recorded
+
+## Predictors variables (Features)
+tBodyAcc-mean()-X  
+tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Z  
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
@@ -80,4 +83,5 @@ fBodyBodyGyroMag-meanFreq()
 fBodyBodyGyroJerkMag-mean()
 fBodyBodyGyroJerkMag-std()
 fBodyBodyGyroJerkMag-meanFreq()
-## Response (y)
+
+## Response variable (Activity)
